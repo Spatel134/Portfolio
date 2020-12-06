@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="h-100">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -24,13 +24,21 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body class="d-flex flex-column h-100">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="./index.html">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
-    
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
@@ -40,22 +48,58 @@
             <a class="nav-link" href="./portfolio.html">Portfolio</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="./index.html">About<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="./index.html" >About<span class="sr-only">(current)</span></a>
           </li>
         </ul>
       </div>
     </nav>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h1>About me</h1>
-          
+    <article class="container mt-5 ml-2">
+      <div class="main-layout col-8">
+        <div class="row">
+          <header class="col-12 mt-3">
+            <h1 class="page-header border-bottom">About Me</h1>
+          </header>
         </div>
-
+        <div class="row">
+          <div class="col-12">
+            <img
+              class="image-responsive float-left mr-4"
+              src="https://media-exp1.licdn.com/dms/image/C4D03AQEnGlK2as96qA/profile-displayphoto-shrink_200_200/0/1517627316563?e=1613001600&v=beta&t=UKTloz7NdD-xeCYKhjiWxwYxJ7VV-Xxg8OHwsTkZBlE"
+              alt="Picture of Sahil Patel"
+            />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia
+              aliquam magnam, voluptatum ipsa reprehenderit quo quidem
+              blanditiis doloribus ea suscipit nostrum facere placeat tempore
+              modi aliquid quos corporis sint veritatis? Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Sint nam eaque sapiente autem
+              molestias possimus optio placeat nesciunt? Quae, ipsam
+              reprehenderit! Sit quo quam suscipit eius repellat excepturi
+              voluptatum vero! Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Aliquam non, facere sit consequuntur, animi quia
+              quibusdam numquam ullam voluptates enim rerum commodi voluptatem
+              omnis! Unde dicta quos explicabo! A, quae. Lorem ipsum dolor sit,
+              amet consectetur adipisicing elit. Quia aliquam magnam, voluptatum
+              ipsa reprehenderit quo quidem blanditiis doloribus ea suscipit
+              nostrum facere placeat tempore modi aliquid quos corporis sint
+              veritatis? Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Sint nam eaque sapiente autem molestias possimus optio
+              placeat nesciunt? Quae, ipsam reprehenderit! Sit quo quam suscipit
+              eius repellat excepturi voluptatum vero! Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Aliquam non, facere sit
+              consequuntur, animi quia quibusdam numquam ullam voluptates enim
+              rerum commodi voluptatem omnis! Unde dicta quos explicabo! A,
+              quae.
+            </p>
+          </div>
+        </div>
       </div>
-
-    </div>
-    
-  
+    </article>
+    <footer class="footer mt-auto py-3">
+      <div class="container">
+        
+        
+      </div>
+    </footer>
   </body>
 </html>
