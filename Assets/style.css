@@ -57,3 +57,11 @@ header {
   width: 350px;
   object-fit:cover;
 }
+
+/* Contact Page - style  */
+
+/* Submit buttom color change */
+.btn-primary{
+  background-color: #399c95 !important;
+  border-color: #399c95 !important;
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="h-100">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -24,9 +24,12 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="./index.html">Sahil Patel</a>
+  <body class="d-flex flex-column h-100">
+
+    <!-- Nav bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-4">
+      <a class="navbar-brand logo" href="./index.html">Sahil Patel</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -40,27 +43,53 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact</a>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./contact.html">Contact<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./portfolio.html">Portfolio</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="./index.html"
-              >About<span class="sr-only">(current)</span></a
-            >
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">About</a>
           </li>
         </ul>
       </div>
     </nav>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h1>Contact</h1>
+
+<!-- Main Content - Content Form -->
+
+    <article class="container my-5 ml-2">
+      <div class="main-layout col-lg-9 col-sm-12">
+        <div class="row w-100">
+          <header class="col-12 mt-3">
+            <h1 class="page-header border-bottom font-weight-bold">Contact</h1>
+          </header>
+        <form class="col-9 mb-4 ml-4">
+          <div class="form-group mb-3">
+            <label for="name-field">Name</label>
+            <input type="text" class="form-control" id="name-field" aria-describedby="Your Name" placeholder="Name">
+          </div>
+          <div class="form-group mb-3">
+            <label for="email-field">Email</label>
+            <input type="email" class="form-control" id="email-field" aria-describedby="emailHelp" placeholder="Email">
+          </div>
+        <div class="form-group mb-3">
+          <label for="message-field" class="form-label">Message</label>
+          <textarea class="form-control" id="message-field" rows="3" placeholder="Message"></textarea>
         </div>
-      </div>
-    </div>
+          <button type="submit" class="btn btn-primary rounded-0">Submit</button>
+        </form>
+    </article>
+
+    <!-- footer -->
+
+    <footer class="footer mt-auto">
+        <div class="row copyright-border">&nbsp;</div>
+        <div class="row copyright">
+          <p class="text-center my-2 w-100">&#x24B8; 2020 Copyright</p>
+        </div>
+    </footer>
   </body>
 </html>
+
