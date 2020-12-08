@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html class="h-100">
+<html class="h-100" lang="en">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
+    <title>Contact Me</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
@@ -25,7 +25,6 @@
     ></script>
   </head>
   <body class="d-flex flex-column h-100">
-
     <!-- Nav bar -->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light px-4">
@@ -45,7 +44,9 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="./contact.html">Contact<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="./contact.html"
+              >Contact<span class="sr-only">(current)</span></a
+            >
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./portfolio.html">Portfolio</a>
@@ -57,7 +58,7 @@
       </div>
     </nav>
 
-<!-- Main Content - Content Form -->
+    <!-- Main Content - Content Form -->
 
     <article class="container my-5 ml-2">
       <div class="main-layout col-lg-9 col-sm-12">
@@ -65,31 +66,51 @@
           <header class="col-12 mt-3">
             <h1 class="page-header border-bottom font-weight-bold">Contact</h1>
           </header>
-        <form class="col-9 mb-4 ml-4">
-          <div class="form-group mb-3">
-            <label for="name-field">Name</label>
-            <input type="text" class="form-control" id="name-field" aria-describedby="Your Name" placeholder="Name">
-          </div>
-          <div class="form-group mb-3">
-            <label for="email-field">Email</label>
-            <input type="email" class="form-control" id="email-field" aria-describedby="emailHelp" placeholder="Email">
-          </div>
-        <div class="form-group mb-3">
-          <label for="message-field" class="form-label">Message</label>
-          <textarea class="form-control" id="message-field" rows="3" placeholder="Message"></textarea>
+          <form class="col-9 mb-4 ml-4">
+            <div class="form-group mb-3">
+              <label for="name-field">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name-field"
+                aria-describedby="Your Name"
+                placeholder="Name"
+              />
+            </div>
+            <div class="form-group mb-3">
+              <label for="email-field">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email-field"
+                aria-describedby="emailHelp"
+                placeholder="Email"
+              />
+            </div>
+            <div class="form-group mb-3">
+              <label for="message-field" class="form-label">Message</label>
+              <textarea
+                class="form-control"
+                id="message-field"
+                rows="3"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary rounded-0">
+              Submit
+            </button>
+          </form>
         </div>
-          <button type="submit" class="btn btn-primary rounded-0">Submit</button>
-        </form>
+      </div>
     </article>
 
     <!-- footer -->
 
     <footer class="footer mt-auto">
-        <div class="row copyright-border">&nbsp;</div>
-        <div class="row copyright">
-          <p class="text-center my-2 w-100">&#x24B8; 2020 Copyright</p>
-        </div>
+      <div class="row copyright-border">&nbsp;</div>
+      <div class="row copyright">
+        <p class="text-center my-2 w-100">&#x24B8; 2020 Copyright</p>
+      </div>
     </footer>
   </body>
 </html>
-
