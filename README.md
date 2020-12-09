@@ -46,3 +46,6 @@ SOFTWARE.
 
 
 Check out my [Portfolio](https://spatel134.github.io/Portfolio/)! 
+
+ *Please use Google Chrome browser*
+
