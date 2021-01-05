@@ -1,28 +1,37 @@
-# Portfolio 
+# Portfolio
 
-**Portfolio** page is about me.  
+**Portfolio** page is about me.
 
-It's still work in progress. I'm created this website to help me create my real portfolio for my future employers to view. 
+It's still work in progress. I'm created this website to help me create my real portfolio for my future employers to view.
 
 ---
+
 ## Preview:
+
 ### About Me (Page)
-![About Me](./assets/Images/About-Me(demo-page).png)
+
+![About Me](./Assets/Images/aboutme.png)
+
 ### Portfolio (Page)
-![Portfolio](./assets/Images/Portfolio(demo-page).png)
+
+![Portfolio](<./Assets/Images/portfolio-page.png>)
+
 ### Contact Me (Page)
-![Contact Me](./assets/Images/Contact-Me(demo-page).png)
+
+![Contact Me](<./Assets/Images/contact-page.png>)
 
 ---
+
 ## Credits
-Special thanks to Georgia Tech Boot-camp staff for the positive feedback and support. 
-I would like to thank my classmates for assisting me whenever I reach out to them on slack. 
+
+Special thanks to Georgia Tech Boot-camp staff for the positive feedback and support.
+I would like to thank my classmates for assisting me whenever I reach out to them on slack.
 
 ## License
 
 MIT License
 
-Copyright (c) 2020  Sahil Patel
+Copyright (c) 2020 Sahil Patel
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -44,8 +53,6 @@ SOFTWARE.
 
 ---
 
+Check out my [Portfolio](https://spatel134.github.io/Portfolio/)!
 
-Check out my [Portfolio](https://spatel134.github.io/Portfolio/)! 
-
- *Please use Google Chrome browser*
-
+_Please use Google Chrome browser_
