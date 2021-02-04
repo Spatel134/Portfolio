@@ -4,11 +4,13 @@ Please read each comment for each section.    */
 /* Background image for all pages */
 
 body {
-  background-color: #e1e8f0;
+  background-color: #d3d3d3;
 }
 
 /* Navbar logo style for all pages */
-
+#navbar {
+  background-color: #ef8354 !important;
+}
 
 .logo {
   padding: 0%;
@@ -27,7 +29,7 @@ header {
 /* Footer style for all pages */
 
 .copyright {
-  background-color: #3d3d3d;
+  background-color: #ef8354;
   width: 100%;
   height: 85%;
   margin: 0%;
