@@ -6,7 +6,14 @@ It's still work in progress. I'm created this website to help me create my real 
 
 ---
 
-## Preview:
+ ## Table of Contents
+* [Preview of Version 1](#V1)
+* [Preview of Version 2](#V2)
+* [Credits](#Credits)
+* [License](#license)
+
+
+## Preview: V1
 
 ### About Me (Page)
 
@@ -21,6 +28,14 @@ It's still work in progress. I'm created this website to help me create my real 
 ![Contact Me](<./Assets/Images/contact-page.png>)
 
 ---
+## V2
+
+![About Me V2](./Assets/Images/v2-aboutme.png)
+
+![Portfolio V2](./Assets/Images/v2-portfoliopage.png)
+
+![Contact Me V2](./Assets/Images/v2-contactpage.png)
+
 
 ## Credits
 
